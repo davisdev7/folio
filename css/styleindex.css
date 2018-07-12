@@ -249,12 +249,13 @@ header nav ul li a:hover {
 /*-------------ABRE-------------*/
 
 .main-acercademi {
-    background: url("../img/hola-min.png");
+    background: url("../img/china_town_by_andreewallin.jpg");
     height: 500px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    background-attachment: fixed;
     height: auto;
 }
 
@@ -276,7 +277,7 @@ header nav ul li a:hover {
     width: 50%;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    color: rgba(33, 33, 33, 1);
+    color: white;
     text-shadow: 3px 1px 30px rgba(97, 97, 97, 1);
     line-height: 27px;
 }
