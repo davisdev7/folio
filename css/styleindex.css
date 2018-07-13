@@ -81,11 +81,12 @@
 .nombre-y-logo {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .nombre-y-logo img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 80px;
     border-radius: 100%;
     margin: 0px;
     padding: 0px;
@@ -95,11 +96,13 @@
 .nombre-y-logo h1 {
     font-family: 'Open Sans', sans-serif;
     align-self: center;
+    padding-left: 10px;
 }
 
 header {
     position: fixed;
     width: 100%;
+    height:100px;
     top: 0;
     display: flex;
     justify-content: space-around;
@@ -246,12 +249,13 @@ header nav ul li a:hover {
 /*-------------ABRE-------------*/
 
 .main-acercademi {
-    background: url("../img/hola-min.png");
+    background: url("../img/china_town_by_andreewallin.jpg");
     height: 500px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    background-attachment: fixed;
     height: auto;
 }
 
@@ -273,7 +277,7 @@ header nav ul li a:hover {
     width: 50%;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    color: rgba(33, 33, 33, 1);
+    color: white;
     text-shadow: 3px 1px 30px rgba(97, 97, 97, 1);
     line-height: 27px;
 }
@@ -389,7 +393,7 @@ footer .derechos {
 }
 
 .footerlogo {
-    margin: 20px auto 0px auto;
+    margin: 20px auto 10px auto;
 }
 
 .footerlogo img {
@@ -401,7 +405,7 @@ footer .derechos {
 }
 
 .social-media-footer {
-    margin: 0 auto;
+    margin: 0px auto 25px auto;
 }
 
 .social-media-footer button {
