@@ -341,14 +341,14 @@ form input[type="text"], form input[type="email"] {
     box-sizing: border-box;
     margin-bottom: 15px;
     padding: 20px 20px;
-    border: 1px solid rgba(198, 255, 0, 1);
+    border: 1.5px solid rgba(33, 33, 33, 1);
     border-radius: 5px;
     color: #a4a4a4;
 }
 
 form input[type="text"]:focus, form input[type="email"]:focus, form textarea:focus {
     background: rgba(236, 239, 241, 0.4);
-    border: 1px solid rgba(139, 195, 74, 1);
+    border: 1.5px solid rgba(33, 33, 33, 1);
     color: black;
 }
 
@@ -357,7 +357,7 @@ form textarea {
     box-sizing: border-box;
     margin-bottom: 15px;
     padding: 20px 20px;
-    border: 1px solid rgba(198, 255, 0, 1);
+    border: 1.5px solid rgba(33, 33, 33, 1);
     border-radius: 5px;
     min-width: 98.5%;
     max-width: 97.5%;
