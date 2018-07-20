@@ -408,9 +408,12 @@ footer .derechos {
     margin: 0px auto 25px auto;
 }
 
+.social-media-footer a {
+text-decoration: none;
+}
 .social-media-footer button {
     display: block;
-    margin: auto;
+    margin: 20px auto 0px auto;
     padding: 15px 15px;
     border: none;
     background: transparent;
